@@ -1,0 +1,4 @@
+cd \
+mkdir file_name
+fsutil file createnew file_name.txt 2
+notepad file_name.txt
