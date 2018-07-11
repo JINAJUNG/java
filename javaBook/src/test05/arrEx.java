@@ -4,7 +4,7 @@ public class arrEx {
 
 	public static void main(String[] args) {
 		//1>ÃÑÇÕ Æò±Õ
-		int[] score = {55,70,15,89,26,10,89,55,15,89};
+		int[] score = {55,55,15,89,26,10,89,55,15,89};
 		for(int i : score) {
 			System.out.print(i+", ");
 		}
@@ -67,16 +67,33 @@ public class arrEx {
 		
 		
 		//5> ºóµµ ¼ö ±¸ÇÏ±â
-		int[][] bin = new int[score.length][score.length];
+		int[] bin = new int[score.length];
+		int[] binC = new int[score.length];
 		
 		int k=0;
+		int inser=1;
 		for(int i=0;i<score.length;i++) {
-			for(int j=i+1;j<score.length;j++) {
-				if(score[i]==score[j]) {
-					
+			for(int j=0;j<score.length;j++) {
+				if(i==j) {
+					continue;
 				}
-					
+				if(score[i]==score[j]) {
+					bin[k]=score[j];
+					if(binC[k]==0) {
+						binC[k]=inser;
+					}					
+					if(binC[k]>0) {
+						binC[k]+=1;
+					}
+				}
 			}
+			k++;
+		}
+		for(int i=0;i<score.length;i++) {
+			if(binC[i]!=0) {
+				System.out.print("bin : "+bin[i]);
+				System.out.println(" binC : "+binC[i]);	
+			}			
 		}
 	}
 }
