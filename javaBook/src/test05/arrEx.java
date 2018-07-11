@@ -67,33 +67,33 @@ public class arrEx {
 		
 		
 		//5> 빈도 수 구하기
-		int[] bin = new int[score.length];
-		int[] binC = new int[score.length];
+//		int max=0;
+//		int[] printBin;
+//
+//		for(int i=0;i<score.length;i++) {
+//			if(score[i]>max) {
+//				max=score[i];
+//			}
+//		}
+//		printBin = new int[max+1];
+//		
+//		for(int i=0;i<score.length;i++) {
+//			printBin[score[i]]++;
+//
+//		}
+//		for(int i=0;i<printBin.length;i++) {
+//			if(printBin[i]!=0) {
+//				System.out.println(i+"의 갯수 "+printBin[i]);
+//			}
+//		}
 		
-		int k=0;
-		int inser=1;
-		for(int i=0;i<score.length;i++) {
-			for(int j=0;j<score.length;j++) {
-				if(i==j) {
-					continue;
-				}
-				if(score[i]==score[j]) {
-					bin[k]=score[j];
-					if(binC[k]==0) {
-						binC[k]=inser;
-					}					
-					if(binC[k]>0) {
-						binC[k]+=1;
-					}
-				}
-			}
-			k++;
-		}
-		for(int i=0;i<score.length;i++) {
-			if(binC[i]!=0) {
-				System.out.print("bin : "+bin[i]);
-				System.out.println(" binC : "+binC[i]);	
-			}			
-		}
+		
+		//6 임의의 값으로 배열 채우기
+//		int[] ranBea = new int[10];
+//		for(int i=0;i<ranBea.length;i++) {
+//			ranBea[i]=(int)(Math.random()*50)+1;
+//			System.out.println("ranBea["+i+"]"+ranBea[i]);
+//		}
+		
 	}
 }
