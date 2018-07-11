@@ -3,7 +3,7 @@ package test05;
 public class arrCopy {
 
 	public static void main(String[] args) {
-		//1. ¹è¿­ÀÇ º¹»ç
+		//1. ë°°ì—´ì˜ ë³µì‚¬
 		int[] arr=new int[5];
 		System.out.println("arr.length : "+arr.length);
 		

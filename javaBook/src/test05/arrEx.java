@@ -3,7 +3,7 @@ package test05;
 public class arrEx {
 
 	public static void main(String[] args) {
-		//1>ÃÑÇÕ Æò±Õ
+		//1>ì´í•© í‰ê· 
 		int[] score = {55,55,15,89,26,10,89,55,15,89};
 		for(int i : score) {
 			System.out.print(i+", ");
@@ -15,11 +15,11 @@ public class arrEx {
 //			hap+=score[i];
 //		}
 //		
-//		System.out.println("\nÇÕ : "+hap);
-//		System.out.println("Æò±Õ : "+(hap/score.length));
+//		System.out.println("\ní•© : "+hap);
+//		System.out.println("í‰ê·  : "+(hap/score.length));
 
 		
-//		//2>ÃÖ´ë°ª ÃÖ¼Ò°ª
+//		//2>ìµœëŒ€ê°’ ìµœì†Œê°’
 //
 //		int min=score[0];
 //		int max=score[0];
@@ -36,7 +36,7 @@ public class arrEx {
 //		System.out.println("min : "+min);
 		
 		
-//		//3> ¼¯±â(¼ÅÇÃ)
+//		//3> ì„ê¸°(ì…”í”Œ)
 //		int[] ranBea = new int[score.length];
 //		for(int i=0;i<score.length;i++) {
 //			int ran = (int)(Math.random()*(score.length-1));
@@ -45,13 +45,13 @@ public class arrEx {
 //			score[i]=score[ran];
 //			score[ran]=tmp;
 //		}
-//		System.out.print("¼ÅÇÃ : ");
+//		System.out.print("ì…”í”Œ : ");
 //		for(int i : score) {
 //			System.out.print(i+", ");
 //		}
 		
 		
-//		//4> Á¤·Ä
+//		//4> ì •ë ¬
 //		for(int i=0;i<score.length;i++) {
 //			for(int j=i+1;j<score.length;j++) {
 //				if(score[i]<=score[j]) { //<,>,<=,>=
@@ -66,7 +66,7 @@ public class arrEx {
 //		}
 		
 		
-		//5> ºóµµ ¼ö ±¸ÇÏ±â
+		//5> ë¹ˆë„ ìˆ˜ êµ¬í•˜ê¸°
 //		int max=0;
 //		int[] printBin;
 //
@@ -83,12 +83,12 @@ public class arrEx {
 //		}
 //		for(int i=0;i<printBin.length;i++) {
 //			if(printBin[i]!=0) {
-//				System.out.println(i+"ÀÇ °¹¼ö "+printBin[i]);
+//				System.out.println(i+"ì˜ ê°¯ìˆ˜ "+printBin[i]);
 //			}
 //		}
 		
 		
-		//6 ÀÓÀÇÀÇ °ªÀ¸·Î ¹è¿­ Ã¤¿ì±â
+		//6 ì„ì˜ì˜ ê°’ìœ¼ë¡œ ë°°ì—´ ì±„ìš°ê¸°
 //		int[] ranBea = new int[10];
 //		for(int i=0;i<ranBea.length;i++) {
 //			ranBea[i]=(int)(Math.random()*50)+1;
