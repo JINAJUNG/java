@@ -11,11 +11,9 @@ public class ListTest {
 	public boolean add(String str) {
 			bea=new String[arrStr.length+1];
 			bea[arrStr.length]=str;
-			
 			if(arrStr.length>0) {
 				for(int i=0;i<arrStr.length;i++) {
-					String tmp=arrStr[i];
-					bea[i]=tmp;	
+					bea[i]=arrStr[i];	
 				}
 			}
 			arrStr=bea;
