@@ -3,7 +3,7 @@ package test20;
 public class WrapperTest {
 
 	public static void main(String[] args) {
-		//문제 1
+				//문제 1
 		
 				for(int i=1;i<=10;i++) {
 					System.out.print(i+", ");
