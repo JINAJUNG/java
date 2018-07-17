@@ -98,8 +98,33 @@ public class arrMulti {
 //		} while (num != 0);
 		
 		
-		
-		
+		//문3
+//		int[][] m1= {{1,2,3},{4,5,6}};
+//		int[][] m2= {{1,2},{3,4},{5,6}};
+//
+//		int a = m1.length;//2 m1의 행
+//		int b = m2.length;//3
+//		int c = m2[0].length;//2 m2의 열
+//		
+//		int[][] m3 = new int[a][c];
+//				
+//		//00 00    00 01    10 00    10 01
+//		//01 10    01 11    11 10    11 11
+//		//02 20    02 21    12 20    12 21
+//		//-> 00    -> 01    -> 10    -> 11
+//		
+//		for(int i=0;i<a;i++) {//2
+//			for(int j=0;j<c;j++) {//2
+// 				for(int k=0;k<b;k++) {//3
+//					m3[i][j] += m1[i][k]*m2[k][j];
+//				}
+//			}
+//		}
+//		
+//		for(int i=0;i<m3.length;i++) {
+//			for(int j=0;j<m3[i].length;j++) {
+//				System.out.println(m3[i][j]);
+//			}
+//		}
 	}
-
 }
