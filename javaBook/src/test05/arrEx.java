@@ -3,6 +3,7 @@ package test05;
 public class arrEx {
 
 	public static void main(String[] args) {
+		//http://hschool.co.kr/best.html
 		//1>총합 평균
 		int[] score = {55,55,15,89,26,10,89,55,15,89};
 		for(int i : score) {
