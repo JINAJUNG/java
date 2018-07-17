@@ -20,13 +20,13 @@ public class Student extends Person{
 	}
 	
 	public void average() {
-		System.out.println("8ÇĞ±â ÇĞÁ¡À» ¼ø¼­´ë·Î ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("8í•™ê¸° í•™ì ì„ ìˆœì„œëŒ€ë¡œ ì…ë ¥í•˜ì„¸ìš”.");
 		for(int i=0;i<grade.length;i++) {
-			System.out.print((i+1)+"ÇĞ±â ÇĞÁ¡ : ");
+			System.out.print((i+1)+"í•™ê¸° í•™ì  : ");
 			grade[i]=sc.nextDouble();
 			hap+=grade[i];
 		}
-		System.out.println("8ÇĞ±â ÃÑ Æò±Õ ÇĞÁ¡Àº "+(hap/8)+"ÀÔ´Ï´Ù.");
+		System.out.println("8í•™ê¸° ì´ í‰ê·  í•™ì ì€ "+(hap/8)+"ì…ë‹ˆë‹¤.");
 	}
 	
 }

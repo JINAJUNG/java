@@ -13,8 +13,8 @@ public class Car {
 	}
 	
 	public void printInfo() {
-		System.out.println("¼Óµµ : "+this.speed);
-		System.out.println("ÀÌ¸§ : "+this.name);
-		System.out.println("È¸»ç : "+this.company);
+		System.out.println("ì†ë„ : "+this.speed);
+		System.out.println("ì´ë¦„ : "+this.name);
+		System.out.println("íšŒì‚¬ : "+this.company);
 	}
 }

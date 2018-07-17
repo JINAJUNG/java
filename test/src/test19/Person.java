@@ -4,25 +4,25 @@ public class Person implements Action{
 
 	@Override
 	public void eat() {
-		System.out.println("»ç¶÷ÀÌ ¹ä¸Ô½À´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ë°¥ë¨¹ìŠµë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void sleep() {
-		System.out.println("»ç¶÷ÀÌ Àâ´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ì¡ë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void move() {
-		System.out.println("»ç¶÷ÀÌ ¿òÁ÷ÀÔ´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ì›€ì§ì…ë‹ˆë‹¤.");
 	}
 	
 	public void work() {
-		System.out.println("»ç¶÷ÀÌ ÀÏÇÑ´Ù.");
+		System.out.println("ì‚¬ëŒì´ ì¼í•œë‹¤.");
 	}
 	
 	public void personTest() {
-		System.out.println("»ç¶÷¸¸ ÀÖ¾î");
+		System.out.println("ì‚¬ëŒë§Œ ìˆì–´");
 	}
 
 	

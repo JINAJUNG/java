@@ -7,7 +7,7 @@ public class Lulu extends Cart {
 	}
 	
 	public void stop() {
-		System.out.println(name+"ÀÌ ¸ÚÀÕ°Ô Á¤Áö");
+		System.out.println(name+"ì´ ë©‹ì‡ê²Œ ì •ì§€");
 	}
 
 }

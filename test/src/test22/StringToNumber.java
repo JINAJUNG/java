@@ -12,8 +12,8 @@ public class StringToNumber {
 			return true;
 		} catch (NumberFormatException e) {
 			// e.printStackTrace();
-			System.out.println("ÀÔ·ÂÇÏ¶ó´Â ¼ıÀÚ´Â ¾ÈÀÔ·ÂÇÏ°í");
-			System.out.println("´Ù½Ã ÀÔ·ÂÇØ");
+			System.out.println("ì…ë ¥í•˜ë¼ëŠ” ìˆ«ìëŠ” ì•ˆì…ë ¥í•˜ê³ ");
+			System.out.println("ë‹¤ì‹œ ì…ë ¥í•´");
 		}
 
 		return false;
@@ -21,13 +21,13 @@ public class StringToNumber {
 	public static void main(String[] args) {
 
 		boolean isOk = false;
-		System.out.println("¼ıÀÚ º¯È¯ ÇÁ·Î±×·¥À» ½ÃÀÛÇÕ´Ï´Ù.");
-		System.out.println("¼ıÀÚ¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä");
+		System.out.println("ìˆ«ì ë³€í™˜ í”„ë¡œê·¸ë¨ì„ ì‹œì‘í•©ë‹ˆë‹¤.");
+		System.out.println("ìˆ«ìë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš”");
 		while (!isOk) {
 			isOk = parseInt();
 		}
-		System.out.println("´Ï°¡ ÀÔ·ÂÇÑ ¼ıÀÚ´Â " + num + "ÀÌ±¸³ª");
-		System.out.println("ÇÁ·Î±×·¥ÀÌ Á¤»óÀûÀ¸·Î Á¾·áµÇ¾ù½À´Ï´Ù.");
+		System.out.println("ë‹ˆê°€ ì…ë ¥í•œ ìˆ«ìëŠ” " + num + "ì´êµ¬ë‚˜");
+		System.out.println("í”„ë¡œê·¸ë¨ì´ ì •ìƒì ìœ¼ë¡œ ì¢…ë£Œë˜ì—‡ìŠµë‹ˆë‹¤.");
 	}
 	
 	public static void test() {

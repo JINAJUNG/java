@@ -3,7 +3,7 @@ package book06;
 public class ExcutorSeven {
 
 	public static void main(String[] args) {
-		Student s = new Student("±è´ÙÁ¤",20,"°ü¾Ç","µ¿¾ç¼­¿ï´ë","Àü»êÁ¤º¸",1501274);
+		Student s = new Student("ê¹€ë‹¤ì •",20,"ê´€ì•…","ë™ì–‘ì„œìš¸ëŒ€","ì „ì‚°ì •ë³´",1501274);
 
 		s.average();
 		

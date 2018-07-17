@@ -12,15 +12,15 @@ public class Exec {
 		int num=1;
 		for (int i = 0; i < p.length; i++) {
 			p[i] = new Person();
-			p[i].name = (i + 1) + "¹øÂ° »ç¶÷";
-			System.out.println(i + 1 + "¹ø¤Š »ç¶÷ÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä");
+			p[i].name = (i + 1) + "ë²ˆì§¸ ì‚¬ëžŒ";
+			System.out.println(i + 1 + "ë²ˆì¨° ì‚¬ëžŒì˜ ì ìˆ˜ë¥¼ ìž…ë ¥í•´ ì£¼ì„¸ìš”");
 			p[i].point = Integer.parseInt(sc.nextLine());
 		}
 		for (int i = 0; i < p.length; i++) {
-			System.out.println(p[i].name + "´ÔÀÇ Á¡¼ö´Â : " + p[i].point + "ÀÔ´Ï´Ù.");
+			System.out.println(p[i].name + "ë‹˜ì˜ ì ìˆ˜ëŠ” : " + p[i].point + "ìž…ë‹ˆë‹¤.");
 		}
 
-		//µî¼ö
+		//ë“±ìˆ˜
 		for(int i=0;i<bea.length;i++) {
 			bea[i]=p[i].point;
 		}
@@ -44,7 +44,7 @@ public class Exec {
 		
 
 		for (int i = 0; i < p.length; i++) {
-			System.out.println(p[i].name + "´ÔÀÇ Á¡¼ö´Â : " + p[i].point + "ÀÔ´Ï´Ù." + "µî¼ö´Â : " + p[i].rank);
+			System.out.println(p[i].name + "ë‹˜ì˜ ì ìˆ˜ëŠ” : " + p[i].point + "ìž…ë‹ˆë‹¤." + "ë“±ìˆ˜ëŠ” : " + p[i].rank);
 		}
 	}
 }

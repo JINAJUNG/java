@@ -9,13 +9,13 @@ public class ListTest {
 	public static void main(String[] args) {
 		ArrayList<String> strl = new ArrayList<String>();
 		System.out.println(strl.size());
-		strl.add("¹Ú°æÈÆ");
-		strl.add("Àü½ÂÇö");
-		strl.add("±è±â¼·");
+		strl.add("ë°•ê²½í›ˆ");
+		strl.add("ì „ìŠ¹í˜„");
+		strl.add("ê¹€ê¸°ì„­");
 		System.out.println(strl.size());
-		strl.remove("±è±â¼·");
+		strl.remove("ê¹€ê¸°ì„­");
 		System.out.println(strl.size());
-		int idx = strl.indexOf("±è±â¼·");
+		int idx = strl.indexOf("ê¹€ê¸°ì„­");
 		System.out.println(idx);
 
 	}

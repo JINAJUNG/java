@@ -4,23 +4,23 @@ public class Animal implements Action{
 
 	@Override
 	public void eat() {
-		System.out.println("µ¿¹°ÀÌ ¹ä¸Ô½À´Ï´Ù.");
+		System.out.println("ë™ë¬¼ì´ ë°¥ë¨¹ìŠµë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void sleep() {
-		System.out.println("µ¿¹°ÀÌ Àâ´Ï´Ù.");
+		System.out.println("ë™ë¬¼ì´ ì¡ë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void move() {
-		System.out.println("µ¿¹°ÀÌ ¿òÁ÷ÀÔ´Ï´Ù.");
+		System.out.println("ë™ë¬¼ì´ ì›€ì§ì…ë‹ˆë‹¤.");
 	}
 	
 	public void hunt() {
-		System.out.println("µ¿¹°ÀÌ »ç³ÉÇÕ´Ï´Ù.");
+		System.out.println("ë™ë¬¼ì´ ì‚¬ëƒ¥í•©ë‹ˆë‹¤.");
 	}
 	public void animalTest() {
-		System.out.println("µ¿¹°¸¸ ÀÕ¾î");
+		System.out.println("ë™ë¬¼ë§Œ ì‡ì–´");
 	}
 }

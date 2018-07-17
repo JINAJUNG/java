@@ -3,7 +3,7 @@ package test11;
 public class Excu {
 
 	public static void main(String[] args) {
-//		Car c= new Car(50,"¿À´ÃÀÇ °úÀÏ¾ßÃ¤ Æ÷µµ","ºù±×·¡");
+//		Car c= new Car(50,"ì˜¤ëŠ˜ì˜ ê³¼ì¼ì•¼ì±„ í¬ë„","ë¹™ê·¸ë˜");
 //		c.printInfo();
 		
 		Student s = new Student();

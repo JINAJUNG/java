@@ -3,15 +3,15 @@ package book06;
 public class ExcutorOneFour {
 
 	public static void main(String[] args) {
-//		Regular r = new Regular("ÀÌ¼ø½Å",35,"¼­¿ï","ÀÎ»çºÎ");
-//		Temporary t = new Temporary("Àåº¸°í",25,"ÀÎÃµ","°æ¸®ºÎ");
+//		Regular r = new Regular("ì´ìˆœì‹ ",35,"ì„œìš¸","ì¸ì‚¬ë¶€");
+//		Temporary t = new Temporary("ì¥ë³´ê³ ",25,"ì¸ì²œ","ê²½ë¦¬ë¶€");
 //		r.setSalary(5000000);
 //		r.printInfo();
 //		t.setWorkHours(120);
 //		t.printInfo();
 		
-		Employee r = new Regular("ÀÌ¼ø½Å",35,"¼­¿ï","ÀÎ»çºÎ");
-		Employee t = new Temporary("Àåº¸°í",25,"ÀÎÃµ","°æ¸®ºÎ");
+		Employee r = new Regular("ì´ìˆœì‹ ",35,"ì„œìš¸","ì¸ì‚¬ë¶€");
+		Employee t = new Temporary("ì¥ë³´ê³ ",25,"ì¸ì²œ","ê²½ë¦¬ë¶€");
 		r.setSalary(5000000);
 		r.printInfo();
 		System.out.println(t.setWorkHours(120));

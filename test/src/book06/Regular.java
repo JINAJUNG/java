@@ -13,6 +13,6 @@ public class Regular extends Employee{
 		return salary;
 	}
 	public void printInfo() {
-		System.out.println("Á¤±ÔÁ÷");
+		System.out.println("ì •ê·œì§");
 	}
 }

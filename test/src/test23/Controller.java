@@ -3,18 +3,18 @@ package test23;
 public class Controller {
 	public void callOrder(String order) {
 		if("1".equals(order)) {
-			System.out.println("À¯Àú¸®½ºÆ®¸¦ º¸°í ½Í±º¿ä");
+			System.out.println("ìœ ì €ë¦¬ìŠ¤íŠ¸ë¥¼ ë³´ê³  ì‹¶êµ°ìš”");
 		}else if("2".equals(order)) {
-			System.out.println("À¯Àú¸®½ºÆ®¸¦ Ãß°¡ÇÏ°í ½Í±º¿ä");
+			System.out.println("ìœ ì €ë¦¬ìŠ¤íŠ¸ë¥¼ ì¶”ê°€í•˜ê³  ì‹¶êµ°ìš”");
 		}else if("3".equals(order)) {
-			System.out.println("À¯Àú¸®½ºÆ®¸¦ ¼öÁ¤ÇÏ°í ½Í±º¿ä");
+			System.out.println("ìœ ì €ë¦¬ìŠ¤íŠ¸ë¥¼ ìˆ˜ì •í•˜ê³  ì‹¶êµ°ìš”");
 		}else if("4".equals(order)) {
-			System.out.println("À¯Àú¸®½ºÆ®¸¦ »èÁ¦ÇÏ°í ½Í±º¿ä");
+			System.out.println("ìœ ì €ë¦¬ìŠ¤íŠ¸ë¥¼ ì‚­ì œí•˜ê³  ì‹¶êµ°ìš”");
 		}else if("q".equals(order)){
-			System.out.println("Á¾·á°¢~");
-		//	System.exit(0);//°­Á¦Á¾·á
+			System.out.println("ì¢…ë£Œê°~");
+		//	System.exit(0);//ê°•ì œì¢…ë£Œ
 		}else {
-			System.out.println("Á¸ÀçÇÏÁö ¾Ê´Â ¸í·É¾î ÀÓ³×´Ù!");
+			System.out.println("ì¡´ì¬í•˜ì§€ ì•ŠëŠ” ëª…ë ¹ì–´ ì„ë„¤ë‹¤!");
 		}
 	}
 }

@@ -7,12 +7,12 @@ public class Exec {
 //		c = new Dog();
 		
 		Computer pc = new Laptop();
-		//Çüº¯È¯
+		//í˜•ë³€í™˜
 		//1
 		Laptop lp = (Laptop)pc;
-		lp.resolution="µé¾î°«";
+		lp.resolution="ë“¤ì–´ê°“";
 		//2
-		((Laptop)pc).resolution="¹Ù²ñ?"; 
+		((Laptop)pc).resolution="ë°”ë€œ?"; 
 		
 		pc.printInfo();
 		

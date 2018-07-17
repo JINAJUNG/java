@@ -8,6 +8,6 @@ public class Jin extends Human{
 
 	public void printHuman() {
 		super.printHuman();
-		System.out.println("Áö³ª¾²");
+		System.out.println("ì§€ë‚˜ì“°");
 	}
 }

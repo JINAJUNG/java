@@ -2,12 +2,12 @@ package test19;
 
 public interface Action {
 
-	//interfaceÀÇ default Á¢±ÙÁ¦¾îÀÚ´Â public!!
+	//interfaceì˜ default ì ‘ê·¼ì œì–´ìëŠ” public!!
 	public void eat();
 	public void sleep();
 	public void move();
 	
 //	public static void eatt() {
-//		1.8ºÎÅÍ °¡´É
+//		1.8ë¶€í„° ê°€ëŠ¥
 //	}
 }

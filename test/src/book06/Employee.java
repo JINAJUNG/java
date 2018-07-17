@@ -61,9 +61,9 @@ public class Employee {
 	}
 	
 	public void printInfo() {
-		System.out.println("ÀÌ¸§ : "+name);
-		System.out.println("³ªÀÌ : "+age);
-		System.out.println("ÁÖ¼Ò : "+address);
-		System.out.println("ºÎ¼­ : "+department);
+		System.out.println("ì´ë¦„ : "+name);
+		System.out.println("ë‚˜ì´ : "+age);
+		System.out.println("ì£¼ì†Œ : "+address);
+		System.out.println("ë¶€ì„œ : "+department);
 	}
 }

@@ -14,9 +14,9 @@ public class Temporary extends Employee{
 	}
 	
 	public void printInfo() {
-		System.out.println("ºñÁ¤±ÔÁ÷");
-		System.out.println("ÀÏÇÑ ½Ã°£ : "+workTime);
-		System.out.println("±Ş¿© : "+setWorkHours(workTime));
+		System.out.println("ë¹„ì •ê·œì§");
+		System.out.println("ì¼í•œ ì‹œê°„ : "+workTime);
+		System.out.println("ê¸‰ì—¬ : "+setWorkHours(workTime));
 	}
 	
 }

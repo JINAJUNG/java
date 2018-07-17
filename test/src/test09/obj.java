@@ -16,7 +16,7 @@ public class obj {
 	void test() {
 		int num=10;
 		System.out.println(num);
-		System.out.println("³­ objÀÇ Å×½ºÆ® ÇÔ¼ö");
+		System.out.println("ë‚œ objì˜ í…ŒìŠ¤íŠ¸ í•¨ìˆ˜");
 	}
 	
 	void test2() {
@@ -36,4 +36,3 @@ public class obj {
 	}
 
 }
-

@@ -3,6 +3,6 @@ package test12;
 public class Father {
 
 	void work() {
-		System.out.println("¾Æ¹öÁö°¡ °Ç¼³ÀÏÀ» ÇÏ½Ê´Ï´Ù.");
+		System.out.println("ì•„ë²„ì§€ê°€ ê±´ì„¤ì¼ì„ í•˜ì‹­ë‹ˆë‹¤.");
 	}
 }

@@ -12,7 +12,7 @@ public class Rabbit {
 		this.rank = rank;
 	}
 
-	public static void rankingUp(Rabbit[] r) { //¿À¸§Â÷¼ø
+	public static void rankingUp(Rabbit[] r) { //ì˜¤ë¦„ì°¨ìˆœ
 		for (int i = 0; i < r.length; i++) {
 			for (int j = i + 1; j < r.length; j++) {
 				if (r[i].rank < r[j].rank) {
@@ -25,7 +25,7 @@ public class Rabbit {
 	}
 	//		rankingUp(r);  //void type
 
-	public static Rabbit[] rankingDown(Rabbit[] r) { // 77¶óÀÎ¿¡ »ç¿ë, void·Î °¡´É rabbit[]À¸·Î ºÒ¸£Áöµµ ¾Ê´Âµ¥ ¿ÖÇŞÁö?Í±î?³ª´Â¸Ö±î?
+	public static Rabbit[] rankingDown(Rabbit[] r) { // 77ë¼ì¸ì— ì‚¬ìš©, voidë¡œ ê°€ëŠ¥ rabbit[]ìœ¼ë¡œ ë¶ˆë¥´ì§€ë„ ì•ŠëŠ”ë° ì™œí–‡ì§€?ì™¤ê¹Œ?ë‚˜ëŠ”ë©€ê¹Œ?
 		for (int i = 0; i < r.length; i++) {
 			for (int j = i + 1; j < r.length; j++) {
 				if (r[i].rank > r[j].rank) {
@@ -39,7 +39,7 @@ public class Rabbit {
 	}
 
 	public boolean rUp(Rabbit r) {
-		//this¸¦ ¹Ù²Ù´Â°Ç ³» ÀÚ½ÅÀÇ ¸Ş¸ğ¸®¸¦ °¡¸®Å°°íÀÖ´Âµ¥ ¹Ù²Ù´Â°ÍÀÌ¹Ç·Î ¾ÈµÊ?????? rabbitÀÚÃ¼°¡ ÀÎ½ºÅÏ½º¶ó  ±× ¾È¿¡¼­ ´ºÀÎ½ºÅÏ½º°¡µÉ¼ö ¾øÀ½????? °á·ĞÀº ¾ÈµÊ ¾Æ·Ğ³ë... 
+		//thisë¥¼ ë°”ê¾¸ëŠ”ê±´ ë‚´ ìì‹ ì˜ ë©”ëª¨ë¦¬ë¥¼ ê°€ë¦¬í‚¤ê³ ìˆëŠ”ë° ë°”ê¾¸ëŠ”ê²ƒì´ë¯€ë¡œ ì•ˆë¨?????? rabbitìì²´ê°€ ì¸ìŠ¤í„´ìŠ¤ë¼  ê·¸ ì•ˆì—ì„œ ë‰´ì¸ìŠ¤í„´ìŠ¤ê°€ë ìˆ˜ ì—†ìŒ????? ê²°ë¡ ì€ ì•ˆë¨ ì•„ë¡ ë…¸... 
 		if(this.rank<r.rank) {
 //			Rabbit tmpR = this;
 //			this.getClass().in
@@ -66,7 +66,7 @@ public class Rabbit {
 //						i--;
 //					}
 //				}
-//			} //ranÁßº¹ Á¦°Å
+//			} //ranì¤‘ë³µ ì œê±°
 		}
 		
 //		for(int i=0;i<r.length;i++) {
@@ -86,7 +86,7 @@ public class Rabbit {
 
 		System.out.println();
 
-		r=rankingDown(r);  //Rabbit[]Å¸ÀÔ
+		r=rankingDown(r);  //Rabbit[]íƒ€ì…
 		for (int i = 0; i < r.length; i++) {
 			System.out.print(r[i].rank + ", ");
 		}

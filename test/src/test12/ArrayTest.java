@@ -6,7 +6,7 @@ public class ArrayTest {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("¼ıÀÚ¸¦ 1-5±îÁö Áß 1°³¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+		System.out.println("ìˆ«ìë¥¼ 1-5ê¹Œì§€ ì¤‘ 1ê°œë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš”.");
 		String numStr= sc.nextLine();
 
 		int num = Integer.parseInt(numStr);
@@ -14,22 +14,22 @@ public class ArrayTest {
 		int[] bea = new int[5];
 		
 		if(num==1) {
-			System.out.println("1ÀÌ±º");
+			System.out.println("1ì´êµ°");
 		}else if(num==2) {
-			System.out.println("2ÀÌ±º ¿ÖÁÒ?");
+			System.out.println("2ì´êµ° ì™œì£ ?");
 		}else if(num==3) {
-			System.out.println("3ÀÌ±º ¸Ó¸®°¡ ±»¾ùÁ´");
+			System.out.println("3ì´êµ° ë¨¸ë¦¬ê°€ êµ³ì—‡ì¡");
 		}else if(num==4) {
-			System.out.println("Áê±Û »ç»ç»ç");
+			System.out.println("ì¥¬ê¸€ ì‚¬ì‚¬ì‚¬");
 		}else if(num==5) {
 			System.out.println("last five");
 		}else {
-			System.out.println("´Ï°¡ ÀÔ·ÂÇÑ ¼ıÀÚ : "+numStr);
-			System.out.println("1~5Áß¿¡ ³ÖÀ¸¶ó´Ï±ñ~");
+			System.out.println("ë‹ˆê°€ ì…ë ¥í•œ ìˆ«ì : "+numStr);
+			System.out.println("1~5ì¤‘ì— ë„£ìœ¼ë¼ë‹ˆê¹~");
 			return;
 		}
 		bea[num-1]=num;
-		System.out.println("´Ï°¡ ÀÔ·ÂÇÑ ¼ıÀÚ : "+numStr);
-		System.out.println("bea["+(num-1)+"]ÀÇ °ª : "+bea[num-1]);
+		System.out.println("ë‹ˆê°€ ì…ë ¥í•œ ìˆ«ì : "+numStr);
+		System.out.println("bea["+(num-1)+"]ì˜ ê°’ : "+bea[num-1]);
 	}
 }

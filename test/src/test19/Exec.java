@@ -14,7 +14,7 @@ public class Exec {
 		((Person) a).work();
 		((Person) a).personTest();
 	} else {
-		System.out.println("�ѴپƳ�!");
+		System.out.println("둘다아냐!");
 	}
 	}
 	public static void main(String[] args) {

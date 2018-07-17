@@ -3,7 +3,7 @@ package test12;
 public class Son extends Father{
 
 	void work() {
-		System.out.println("³ª´Â °³¹ßÀÏÀ» ÇÕ´Ï´Ù.");
+		System.out.println("ë‚˜ëŠ” ê°œë°œì¼ì„ í•©ë‹ˆë‹¤.");
 	}
 	public static void main(String[] args) {
 		Son s = new Son();

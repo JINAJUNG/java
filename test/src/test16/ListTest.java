@@ -33,12 +33,12 @@ public class ListTest {
 		for(int i=0;i<this.arrStr.length;i++) {
 			if(this.arrStr[i].equals(str)) {
 				this.arrStr[i]=null;
-				System.out.println(str+"ÀÌ ÀÖ´ø"+i+"¹æÀ» ºñ¿ü½À´Ï´Ù.");
-				System.out.println("È®ÀÎ [ "+this.arrStr[i]+" ]");
+				System.out.println(str+"ì´ ìžˆë˜"+i+"ë°©ì„ ë¹„ì› ìŠµë‹ˆë‹¤.");
+				System.out.println("í™•ì¸ [ "+this.arrStr[i]+" ]");
 				return true;
 			}
 		}
-		System.out.println(str+"Àº ÀÔ·ÂµÇÁö ¾ÊÀº ¹®ÀÚ ÀÔ´Ï´Ù.");
+		System.out.println(str+"ì€ ìž…ë ¥ë˜ì§€ ì•Šì€ ë¬¸ìž ìž…ë‹ˆë‹¤.");
 		return false;
 	}
 	
@@ -51,7 +51,7 @@ public class ListTest {
 		Scanner sc = new Scanner(System.in);
 		String st = null;
 		do {
-			System.out.println("¸®½ºÆ®¿¡ ÀúÀåÇÒ ¹®ÀÚ¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+			System.out.println("ë¦¬ìŠ¤íŠ¸ì— ì €ìž¥í•  ë¬¸ìžë¥¼ ìž…ë ¥í•´ ì£¼ì„¸ìš”.");
 			st = sc.nextLine();
 			if(st.equals("end")) {
 				break;
@@ -59,13 +59,13 @@ public class ListTest {
 			lt.add(st);
 		}while(true);
 		
-		System.out.println("ÀúÀåÇÑ ¹®ÀÚÁß Ã£À» ¹®ÀÚ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("ì €ìž¥í•œ ë¬¸ìžì¤‘ ì°¾ì„ ë¬¸ìžë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš”.");
 		String str=sc.nextLine();
 		int idx = lt.indexOf(str);
 		if(idx==-1) {
-			System.out.println(str+"Àº ÀúÀåÇÑ ¹®ÀÚÁß¿¡ ¾ø½À´Ï´Ù.");
+			System.out.println(str+"ì€ ì €ìž¥í•œ ë¬¸ìžì¤‘ì— ì—†ìŠµë‹ˆë‹¤.");
 		}else {
-			System.out.println(str+"Àº "+idx+"¹æ¿¡ ÀÖ´õ¶ó±¸¿ä ");	
+			System.out.println(str+"ì€ "+idx+"ë°©ì— ìžˆë”ë¼êµ¬ìš” ");	
 		}
 		System.out.println();
 		System.out.println("size : "+lt.size());

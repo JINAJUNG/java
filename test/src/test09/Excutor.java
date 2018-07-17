@@ -6,9 +6,9 @@ public class Excutor {
 
 	public static void main(String[] args) {
 		Person p = new Person();
-		p.setName("¿ì¾ß");
+		p.setName("ìš°ì•¼");
 		p.setAge(25);
-		p.setAddress("¼­¿ï");
+		p.setAddress("ì„œìš¸");
 		
 		String[] ho = new String[2];
 		for(int i=0;i<2;i++) {

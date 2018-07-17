@@ -5,7 +5,7 @@ public class Son extends Father{
 	public void test() {
 		this.run();
 		super.test();
-	//	System.out.println("ÀÚ½Ä Å×½ºÆ® ÇÔ¼ö");
+	//	System.out.println("ìì‹ í…ŒìŠ¤íŠ¸ í•¨ìˆ˜");
 	}
 	
 	public static void main(String[] args) {

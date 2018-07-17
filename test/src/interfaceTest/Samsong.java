@@ -9,9 +9,9 @@ public class Samsong extends ElectricFan{
 	public String level(int level) {
 		this.level=level;
 		if(level>3) {
-			return "1-3±îÁöÀÇ ¹üÀ§¸¦ ¹ş¾î³µ½À´Ï´Ù";
+			return "1-3ê¹Œì§€ì˜ ë²”ìœ„ë¥¼ ë²—ì–´ë‚¬ìŠµë‹ˆë‹¤";
 		}else {
-			return this.level+"´ÜÀ¸·Î ¼³Á¤";	
+			return this.level+"ë‹¨ìœ¼ë¡œ ì„¤ì •";	
 		}
 	}
 }

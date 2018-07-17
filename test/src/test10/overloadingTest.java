@@ -4,7 +4,7 @@ public class overloadingTest {
 	
 	int a=3;
 	
-	//Áßº¹Á¤ÀÇ
+	//ì¤‘ë³µì •ì˜
 	public void test() {
 		
 	}
@@ -22,7 +22,7 @@ public class overloadingTest {
 	}
 	
 	public static void main(String[] args) {
-		(new overloadingTest()).a=4; //¸Ş¸ğ¸®»ı¼º
+		(new overloadingTest()).a=4; //ë©”ëª¨ë¦¬ìƒì„±
 		overloadingTest ol = new overloadingTest();
 	}
 

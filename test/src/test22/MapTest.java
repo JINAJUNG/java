@@ -8,26 +8,26 @@ public class MapTest {
 		HashMap<String,String> hm = new HashMap<String,String>();
 		ArrayList<HashMap<String,String>> al = new ArrayList<HashMap<String,String>>();
 		
-		//al¿¡ addÇÒ¶§ hashmapÀ» ³ÖÀ» ¶§ ´Ù¸¥ °ªÀÌ µé¾î°¡¾ßÇÒ¶§
-		//20¹ø¶óÀÎÃ³·³ ¸µÅ©¸¦ ²÷°í »õ·Î ¸Î´øÁö
-		//»õ·Î ¼±¾ğÇØ¼­ ³Ö´øÁö ÇØ¾ßÇÔ
+		//alì— addí• ë•Œ hashmapì„ ë„£ì„ ë•Œ ë‹¤ë¥¸ ê°’ì´ ë“¤ì–´ê°€ì•¼í• ë•Œ
+		//20ë²ˆë¼ì¸ì²˜ëŸ¼ ë§í¬ë¥¼ ëŠê³  ìƒˆë¡œ ë§ºë˜ì§€
+		//ìƒˆë¡œ ì„ ì–¸í•´ì„œ ë„£ë˜ì§€ í•´ì•¼í•¨
 		
-		hm.put("ÀÌ¸§", "¹Ú°æÈÆ");
-		hm.put("ÁÖ¼Ò", "°­¼­±¸");
-		hm.put("¾Ö¿Ïµ¿¹«¸®¸§", "µ¿µ¿ÀÌ");
+		hm.put("ì´ë¦„", "ë°•ê²½í›ˆ");
+		hm.put("ì£¼ì†Œ", "ê°•ì„œêµ¬");
+		hm.put("ì• ì™„ë™ë¬´ë¦¬ë¦„", "ë™ë™ì´");
 		al.add(hm);
 		
 		hm = new HashMap<String,String>();
-		hm.put("ÀÌ¸§", "¹Ú°æÈÆ1");
-		hm.put("ÁÖ¼Ò", "°­¼­±¸2");
-		hm.put("¾Ö¿Ïµ¿¹«¸®¸§", "µ¿µ¿ÀÌ3");
+		hm.put("ì´ë¦„", "ë°•ê²½í›ˆ1");
+		hm.put("ì£¼ì†Œ", "ê°•ì„œêµ¬2");
+		hm.put("ì• ì™„ë™ë¬´ë¦¬ë¦„", "ë™ë™ì´3");
 		al.add(hm);
 		
-		String name = hm.get("ÀÌ¸§");
+		String name = hm.get("ì´ë¦„");
 		System.out.println(name);
 		
 		System.out.println(al);
 		System.out.println(al.get(0));
-		System.out.println(al.get(0).get("ÁÖ¼Ò"));
+		System.out.println(al.get(0).get("ì£¼ì†Œ"));
 	}
 }

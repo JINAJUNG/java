@@ -3,9 +3,9 @@ package test15;
 public class GilGong extends Person{
 
 	public void checkMyLuckyNum(int luckyNum) {
-		System.out.println("³» Çà¿îÀÇ ¹øÈ£ : "+luckyNum);
+		System.out.println("ë‚´ í–‰ìš´ì˜ ë²ˆí˜¸ : "+luckyNum);
 		if(this.luckyNum==luckyNum) {
-			System.out.println("¿î¼ö ÁÁÀº ³¯~");
+			System.out.println("ìš´ìˆ˜ ì¢‹ì€ ë‚ ~");
 		}
 	}
 }

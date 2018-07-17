@@ -9,7 +9,7 @@ public class ListTest3 {
 		ArrayList<Student> sList = new ArrayList<Student>();
 		
 		for(int i=1;i<=5;i++) {
-			String name = "�׽�Ʈ"+i;
+			String name = "테스트"+i;
 			int grade = (int)(Math.random()*10)+1;
 			sList.add(new Student(name,grade));
 		}

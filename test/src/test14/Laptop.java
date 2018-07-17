@@ -4,7 +4,7 @@ public class Laptop extends Computer{
 	public String resolution;
 	
 	public Laptop() {
-		System.out.println("Laptop »ı¼ºÀÚ");
+		System.out.println("Laptop ìƒì„±ì");
 	}
 	public void printInfo() {
 		super.printInfo();

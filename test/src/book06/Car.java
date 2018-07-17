@@ -10,29 +10,28 @@ public class Car {
 	
 	public void speedUp() {
 		speed+=5;
-		System.out.println("ÃÖ´ë ¼Óµµ : "+maxSpeed+", ÇöÀç¼Óµµ : "+speed);
+		System.out.println("ìµœëŒ€ ì†ë„ : "+maxSpeed+", í˜„ì¬ì†ë„ : "+speed);
 	}
 	
 	public void speedUp(int speed) {
 		if(speed<0) {
-			System.out.println("¿À·ù : ¼Óµµ°¡ À½¼öÀÌ¹Ç·Î 0À¸·Î ÁöÁ¤ : ÃÖ´ë ¼Óµµ : "+"ÃÖ´ë ¼Óµµ : "+maxSpeed+", ÇöÀç¼Óµµ : "+this.speed);
+			System.out.println("ì˜¤ë¥˜ : ì†ë„ê°€ ìŒìˆ˜ì´ë¯€ë¡œ 0ìœ¼ë¡œ ì§€ì • : ìµœëŒ€ ì†ë„ : "+"ìµœëŒ€ ì†ë„ : "+maxSpeed+", í˜„ì¬ì†ë„ : "+this.speed);
 		}else {
 			this.speed+=speed;
-			System.out.println("ÃÖ´ë ¼Óµµ : "+maxSpeed+", ÇöÀç¼Óµµ : "+this.speed);
+			System.out.println("ìµœëŒ€ ì†ë„ : "+maxSpeed+", í˜„ì¬ì†ë„ : "+this.speed);
 		}
 	}
 	
 	public void speedDown() {
-		System.out.println("ÃÖ´ë ¼Óµµ : "+maxSpeed+", ÇöÀç¼Óµµ : "+speed);
+		System.out.println("ìµœëŒ€ ì†ë„ : "+maxSpeed+", í˜„ì¬ì†ë„ : "+speed);
 	}
 	
 	public void speedDown(int speed) {
 		if(speed<0 || this.speed<=0) {
-			System.out.println("¿À·ù : ¼Óµµ°¡ À½¼öÀÌ¹Ç·Î 0À¸·Î ÁöÁ¤ : ÃÖ´ë ¼Óµµ : "+"ÃÖ´ë ¼Óµµ : "+maxSpeed+", ÇöÀç¼Óµµ : "+this.speed);
+			System.out.println("ì˜¤ë¥˜ : ì†ë„ê°€ ìŒìˆ˜ì´ë¯€ë¡œ 0ìœ¼ë¡œ ì§€ì • : ìµœëŒ€ ì†ë„ : "+"ìµœëŒ€ ì†ë„ : "+maxSpeed+", í˜„ì¬ì†ë„ : "+this.speed);
 		}else {
 			this.speed-=speed;
-			System.out.println("ÃÖ´ë ¼Óµµ : "+maxSpeed+", ÇöÀç¼Óµµ : "+this.speed);
+			System.out.println("ìµœëŒ€ ì†ë„ : "+maxSpeed+", í˜„ì¬ì†ë„ : "+this.speed);
 		}
 	}
 }
-

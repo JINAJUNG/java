@@ -11,14 +11,14 @@ public class Student {
 	}
 	
 	public String toString() {
-		return name+"´ÔÀÇ Á¡¼ö´Â "+point;
+		return name+"ë‹˜ì˜ ì ìˆ˜ëŠ” "+point;
 	}
 	public static void main(String[] args) {
 		Student[] s = new Student[3];
 		
-		s[0] = new Student("Áø½ÂÇö",80);
-		s[1] = new Student("½ÂÇö",60);
-		s[2] = new Student("ÇöÁø",70);
+		s[0] = new Student("ì§„ìŠ¹í˜„",80);
+		s[1] = new Student("ìŠ¹í˜„",60);
+		s[2] = new Student("í˜„ì§„",70);
 		
 		for(int i=0;i<s.length;i++) {
 			for(int j=i+1;j<s.length;j++) {

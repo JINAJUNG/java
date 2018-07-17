@@ -19,9 +19,9 @@ public class Calc {
 	}
 
 //	public int calc(String op, int num1, int num2) {
-//		//equals, ==ÀÇ Â÷ÀÌ
-//		//equals : °´Ã¼ÀÇ °ª! ºñ±³
-//		//==°´Ã¼ÀÚÃ¼¸¦ ºñ±³
+//		//equals, ==ì˜ ì°¨ì´
+//		//equals : ê°ì²´ì˜ ê°’! ë¹„êµ
+//		//==ê°ì²´ìì²´ë¥¼ ë¹„êµ
 //		if(op.equals("+")) {
 //			return add(num1,num2);
 //		}else if(op.equals("-")) {

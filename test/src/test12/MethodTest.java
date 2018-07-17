@@ -3,7 +3,7 @@ package test12;
 public class MethodTest {
 
 	public void print() {
-		System.out.println("ÇÁ¸°Æ® ÇÔ¼ö");
+		System.out.println("í”„ë¦°íŠ¸ í•¨ìˆ˜");
 	}
 	
 	public static void main(String[] args) {

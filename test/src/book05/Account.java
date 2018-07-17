@@ -26,11 +26,11 @@ public class Account {
 		this.balance = balance;
 	}
 
-	public long deposit(long amount) { //ÀúÃà	
+	public long deposit(long amount) { //ì €ì¶•	
 		return balance+=amount;
 	}
 	
-	public long withdraw(long amount) { //ÀÎÃâ
+	public long withdraw(long amount) { //ì¸ì¶œ
 		if(amount>balance) {
 			return -1;
 		}
@@ -38,17 +38,17 @@ public class Account {
 	}
 	
 	public static void main(String[] args) {
-		Account ac = new Account("Áø¾Æ",5000);
+		Account ac = new Account("ì§„ì•„",5000);
 		long out;
 		ac.deposit(100000);
 		out=10000;
 		if(ac.withdraw(out)==-1) {
-			System.out.println("Èñ¸Á Ãâ±İ ¾× : "+out+"¿ø");
-			System.out.println("ÀÜ¾×ÀÌ ºÎÁ· ÇÕ´Ï´Ù.");
-			System.out.println("ÀÜ¾× : "+ac.getBalance()+"¿ø");
+			System.out.println("í¬ë§ ì¶œê¸ˆ ì•¡ : "+out+"ì›");
+			System.out.println("ì”ì•¡ì´ ë¶€ì¡± í•©ë‹ˆë‹¤.");
+			System.out.println("ì”ì•¡ : "+ac.getBalance()+"ì›");
 		}else {
-			System.out.println("Ãâ±İ ¾× : "+out+"¿ø");
-			System.out.println("Ãâ±İ ÈÄ ÀÜ¾× : "+ac.getBalance()+"¿ø");
+			System.out.println("ì¶œê¸ˆ ì•¡ : "+out+"ì›");
+			System.out.println("ì¶œê¸ˆ í›„ ì”ì•¡ : "+ac.getBalance()+"ì›");
 		}
 	}
 }

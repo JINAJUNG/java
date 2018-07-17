@@ -3,15 +3,15 @@ package test09;
 public class Father {
 
 	public void test() {
-		System.out.println("¾Æºü Å×½ºÆ® ÇÔ¼ö");
+		System.out.println("ì•„ë¹  í…ŒìŠ¤íŠ¸ í•¨ìˆ˜");
 	}
 	
 	public void run() {
-		System.out.println("¾Æºü run ÇÔ¼ö");
+		System.out.println("ì•„ë¹  run í•¨ìˆ˜");
 	}
 	
 	public void sleep() {
-		System.out.println("¾Æºü sleep ÇÔ¼ö");
+		System.out.println("ì•„ë¹  sleep í•¨ìˆ˜");
 	}
 	
 	public static void main(String[] args) {

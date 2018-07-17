@@ -5,7 +5,7 @@ public class PrintObject {
 	String str = "poStr";
 	
 	public String toString() {
-		return "ÀÌ Å¬·¡½ºÀÇ strÀÌ¶õ º¯¼ö´Â"+str+"ÀÌ¶ó´Â °ªÀ» °¡Áö°í ÀÖÁÒ";
+		return "ì´ í´ë˜ìŠ¤ì˜ strì´ë€ ë³€ìˆ˜ëŠ”"+str+"ì´ë¼ëŠ” ê°’ì„ ê°€ì§€ê³  ìˆì£ ";
 	}
 	public static void main(String[] args) {
 		PrintObject po = new PrintObject();

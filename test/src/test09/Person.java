@@ -41,11 +41,4 @@ public class Person {
 				+ "]";
 	}
 
-//	public String toString() {
-//		String str = "내이름은 : "+this.name;
-//		str+=", 나이는 : "+this.age;
-//		str+=", 주소는 : "+this.address;
-//		
-//		return str;
-//	}
 }

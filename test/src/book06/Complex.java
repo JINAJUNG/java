@@ -29,17 +29,17 @@ public class Complex {
 
 //	public Complex add(Complex c) {
 //
-//		return new Complex(real + c.real, imaginary + c.imaginary); // ÀÌ¸§ ¾ø´Â °´Ã¼
+//		return new Complex(real + c.real, imaginary + c.imaginary); // ì´ë¦„ ì—†ëŠ” ê°ì²´
 //
 //	}
 
 	public static Complex add(Complex c1, Complex c2) {
 		return new Complex(c1.real+c2.real,c1.imaginary+c2.imaginary);
-	}//new ºÙ¿©¾ßÇÔ..what the..
+	}//new ë¶™ì—¬ì•¼í•¨..what the..
 
 	public static Complex sub(Complex c1, Complex c2) {
 		return new Complex(c1.real-c2.real,c1.imaginary-c2.imaginary);
-	}//new ºÙ¿©¾ßÇÔ..what the..
+	}//new ë¶™ì—¬ì•¼í•¨..what the..
 
 	public String toString()  
     {  

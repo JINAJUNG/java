@@ -8,6 +8,6 @@ public class Father {
 	}
 	
 	public String toString() {
-		return "³»ÀÌ¸§Àº : "+name;
+		return "ë‚´ì´ë¦„ì€ : "+name;
 	}
 }

@@ -4,7 +4,7 @@ public class Data {
 
 	int a=3;
 	public Data() {
-		System.out.println("Àü data »ı¼ºÀÚ");
+		System.out.println("ì „ data ìƒì„±ì");
 		System.out.println(a);
 	}
 	

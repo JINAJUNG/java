@@ -32,8 +32,8 @@ public class Rectangle {
 	}
 	public static void main(String[] args) {
 		Rectangle r = new Rectangle(3.82, 8.65);
-		System.out.println("¸éÀû : "+r.getArea());
-		System.out.println("µÑ·¹ : "+r.getCircumference());
+		System.out.println("ë©´ì  : "+r.getArea());
+		System.out.println("ë‘˜ë ˆ : "+r.getCircumference());
 	}
 
 }

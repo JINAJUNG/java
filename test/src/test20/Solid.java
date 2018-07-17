@@ -7,6 +7,6 @@ public class Solid extends Cart{
 	}
 
 	public String attack(int damage) {
-		return this.damage+damage+"¸¸Å­ °ø°İ ÇÕ´Ï´Ù.";
+		return this.damage+damage+"ë§Œí¼ ê³µê²© í•©ë‹ˆë‹¤.";
 	}
 }

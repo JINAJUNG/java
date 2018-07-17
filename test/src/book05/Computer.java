@@ -2,7 +2,7 @@ package book05;
 
 public class Computer {
 
-	public final String[] osType= {"À©µµ7","¾ÖÇÃ os x ", "¾Èµå·ÎÀÌµå"};
+	public final String[] osType= {"ìœˆë„7","ì• í”Œ os x ", "ì•ˆë“œë¡œì´ë“œ"};
 	private int osNum;
 	private int mamory;
 	public Computer(int a, int b) {
@@ -11,7 +11,7 @@ public class Computer {
 	}
 	
 	public void print() {
-		System.out.println("¿î¿µÃ¼Á¦ : "+osType[osNum]+", ¸ŞÀÎ¸Ş¸ğ¸® : "+mamory);
+		System.out.println("ìš´ì˜ì²´ì œ : "+osType[osNum]+", ë©”ì¸ë©”ëª¨ë¦¬ : "+mamory);
 	}
 	public static void main(String[] args) {
 		Computer pc = new Computer(0,16);

@@ -22,8 +22,8 @@ public class Exec {
 	public static void main(String[] args) {
 		Drive[] d = new Drive[3];
 
-		d[0] = new Lulu("·ç·ç", 100, 50);
-		d[1] = new Solid("¼Ö¸®µå", 50, 56);
+		d[0] = new Lulu("ë£¨ë£¨", 100, 50);
+		d[1] = new Solid("ì†”ë¦¬ë“œ", 50, 56);
 		d[2] = new TraningCart("traning", 50, 15);
 		
 		start(d);

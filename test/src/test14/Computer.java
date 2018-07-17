@@ -7,7 +7,7 @@ public class Computer {
 	public String hdd;
 	
 	public Computer() {
-		System.out.println("computer »ı¼ºÀÚ");
+		System.out.println("computer ìƒì„±ì");
 	}
 	
 	public void printInfo() {

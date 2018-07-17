@@ -4,7 +4,7 @@ public class PC extends Computer{
 	public String resolution;
 
 	public PC() {
-		System.out.println("PC »ı¼ºÀÚ");
+		System.out.println("PC ìƒì„±ì");
 	}
 	public void printInfo() {
 		super.printInfo();

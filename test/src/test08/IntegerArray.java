@@ -6,13 +6,13 @@ public class IntegerArray {
 
 		// int a = 123; //4byte
 		// long l = a; //8byte
-		// a=l; //8byte´Â 4byte¿¡ ´ã±æ ¼ö ¾ø´Ù.
+		// a=l; //8byteëŠ” 4byteì— ë‹´ê¸¸ ìˆ˜ ì—†ë‹¤.
 
 		int[] arr = new int[10];
 
 		
 		
-		//Áßº¹ ·£´ı°ªÀ» °®Áö ¸øÇÏµµ·Ï
+		//ì¤‘ë³µ ëœë¤ê°’ì„ ê°–ì§€ ëª»í•˜ë„ë¡
 		for (int i = 0; i < 10; i++) {
 			arr[i] = (int) (Math.random() * 10 + 1);
 			if (i >= 1) {

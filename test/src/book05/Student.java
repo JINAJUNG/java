@@ -30,7 +30,7 @@ public class Student {
 		Student s = new Student();
 
 		s.setStudentNum(1501274);
-		s.setDepartment("ÄÄ°ø");
+		s.setDepartment("ì»´ê³µ");
 		
 		System.out.println(s);
 	}

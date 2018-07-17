@@ -6,15 +6,15 @@ public class ForEachTest {
 		String[] st = new String[4];
 		
 		for(int i=0;i<st.length;i++) {
-			st[i]="Å×½ºÆ®"+i;
+			st[i]="í…ŒìŠ¤íŠ¸"+i;
 		}
 		
 		for(String str : st) {
 			System.out.println(str);
 		}
 		
-		String[] arr = {"¹Î¿ì","Çö°æ","½ÂÇö"};
-		String[][] multiArr = {{"1","2","3"},{"1"},{"1","5"}};  //±¸Á¶¾Ë¾Æ¾ßÇÜ
+		String[] arr = {"ë¯¼ìš°","í˜„ê²½","ìŠ¹í˜„"};
+		String[][] multiArr = {{"1","2","3"},{"1"},{"1","5"}};  //êµ¬ì¡°ì•Œì•„ì•¼í–„
 		
 		for(String[] sb: multiArr) {
 			for(String s : sb) {

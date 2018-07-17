@@ -19,7 +19,7 @@ public class SortTest {
 			}
 		}
 		Scanner sc = new Scanner(System.in);
-		System.out.println("ÇĞ»ıµéÀÇ Á¡¼ö¸¦ ,·Î ±¸ºĞÇÏ¿©ÀÔ·Â!");
+		System.out.println("í•™ìƒë“¤ì˜ ì ìˆ˜ë¥¼ ,ë¡œ êµ¬ë¶„í•˜ì—¬ì…ë ¥!");
 		String pointStr = sc.nextLine();
 		sc.close();
 		

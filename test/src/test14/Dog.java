@@ -5,7 +5,7 @@ public class Dog extends Animal{
 	public String type;
 	
 	public Dog() {
-		System.out.println("µµ±× »ı¼ºÀÚ");
+		System.out.println("ë„ê·¸ ìƒì„±ì");
 	}
 	public void printInfo() {
 		System.out.println(name);

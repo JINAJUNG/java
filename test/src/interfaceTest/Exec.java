@@ -14,7 +14,7 @@ public class Exec {
 				Lg l = (Lg)win;
 				l.light();
 			}else {
-				System.out.println("LG Á¦Ç°ÀÌ ¾Æ´Õ´Ï´Ù.");
+				System.out.println("LG ì œí’ˆì´ ì•„ë‹™ë‹ˆë‹¤.");
 			}	
 		}
 	}

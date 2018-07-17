@@ -3,6 +3,6 @@ package book06;
 public class Grape extends Fruit{
 
 	public void print() {
-		System.out.println("³ª´Â Æ÷µµÀÌ´Ù.");
+		System.out.println("ë‚˜ëŠ” í¬ë„ì´ë‹¤.");
 	}
 }

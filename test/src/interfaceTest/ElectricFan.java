@@ -14,21 +14,21 @@ public class ElectricFan implements Wind{
 	
 	@Override
 	public void on() {
-		System.out.println("¼±Ç³±â ÀÛµ¿");
+		System.out.println("ì„ í’ê¸° ì‘ë™");
 	}
 
 	@Override
 	public void off() {
-		System.out.println("¼±Ç³±â ¸ØÃã");
+		System.out.println("ì„ í’ê¸° ë©ˆì¶¤");
 	}
 
 	@Override
 	public String level(int level) {
 		this.level=level;
 		if(this.level>5) {
-			return "1-5±îÁöÀÇ ¹üÀ§¸¦ ¹ş¾î³µ½À´Ï´Ù";
+			return "1-5ê¹Œì§€ì˜ ë²”ìœ„ë¥¼ ë²—ì–´ë‚¬ìŠµë‹ˆë‹¤";
 		}else {
-			return this.level+"´ÜÀ¸·Î ¼³Á¤";	
+			return this.level+"ë‹¨ìœ¼ë¡œ ì„¤ì •";	
 		}
 	}
 
@@ -36,20 +36,20 @@ public class ElectricFan implements Wind{
 	public String height(int high) {
 		this.high=high;	
 		if(this.high>4) {
-			return "1-3±îÁöÀÇ ¹üÀ§¸¦ ¹ş¾î³µ½À´Ï´Ù.";
+			return "1-3ê¹Œì§€ì˜ ë²”ìœ„ë¥¼ ë²—ì–´ë‚¬ìŠµë‹ˆë‹¤.";
 		}else {
-			return this.high+"³ôÀÌ·Î ¼³Á¤";
+			return this.high+"ë†’ì´ë¡œ ì„¤ì •";
 		}
 	}
 	
 	@Override
 	public void spinStart() {
-		System.out.println("È¸Àü");
+		System.out.println("íšŒì „");
 	}
 
 	@Override
 	public void spinStop() {
-		System.out.println("È¸Àü¸ØÃã");
+		System.out.println("íšŒì „ë©ˆì¶¤");
 	}
 
 

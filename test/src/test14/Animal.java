@@ -6,7 +6,7 @@ public class Animal {
 	public int age;
 	
 	public Animal() {
-		System.out.println("³­ µ¿¹° »ı¼ºÀÚ");
+		System.out.println("ë‚œ ë™ë¬¼ ìƒì„±ì");
 	}
 	public void printInfo() {
 		System.out.println(name);

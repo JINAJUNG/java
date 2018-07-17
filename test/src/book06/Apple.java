@@ -3,6 +3,6 @@ package book06;
 public class Apple extends Fruit{
 
 	public void print() {
-		System.out.println("³ª´Â »ç°úÀÌ´Ù.");
+		System.out.println("ë‚˜ëŠ” ì‚¬ê³¼ì´ë‹¤.");
 	}
 }

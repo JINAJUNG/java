@@ -7,6 +7,6 @@ public class Lg extends ElectricFan{
 	}
 
 	public void light() {
-		System.out.println("Α¶Έν ΏΒ");
+		System.out.println("μ΅°λª… μ¨");
 	}
 }

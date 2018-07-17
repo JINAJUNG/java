@@ -3,10 +3,10 @@ package test10;
 public class FuncTest {
 
 	public void add(int a, int b) {
-		System.out.println("ÀÎÆ®´õÇÏ±â : "+(a+b));
+		System.out.println("ì¸íŠ¸ë”í•˜ê¸° : "+(a+b));
 	}
 	public void add(long a, long b) {
-		System.out.println("·Õ´õÇÏ±â : "+(a+b));
+		System.out.println("ë¡±ë”í•˜ê¸° : "+(a+b));
 	}
 	public static void main(String[] args) {
 		FuncTest ft = new FuncTest();

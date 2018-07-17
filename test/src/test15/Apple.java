@@ -3,8 +3,8 @@ package test15;
 public class Apple extends Os{
 
 	public void typePrint(int memory) {
-		this.type="¾ÖÇÃ";
-		System.out.println("¿î¿µÃ¼Á¦ Á¾·ù : "+type);
+		this.type="ì• í”Œ";
+		System.out.println("ìš´ì˜ì²´ì œ ì¢…ë¥˜ : "+type);
 		System.out.println("memory : "+memory);
 	}
 }

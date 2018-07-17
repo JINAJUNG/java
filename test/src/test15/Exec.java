@@ -5,17 +5,17 @@ public class Exec {
 	public static void main(String[] args) {
 //		Robot r = new Robot();
 //		//System.out.println(r.w.power);
-//		//rÀÌ ¼±¾ð,ÃÊ±âÈ­ ÇÏ¸é¼­ w¸¦ null·Î ÃÊ±âÈ­ ½ÃÄÑ¼­ ¿À·ù°¡ »ý±è
-//		//weapon Å¬·¡½º´Â nullÀÌ±â ¶§¹®¿¡ powerÀÌ °ªÀ» °¡Áú ¼ö ¾øÀ½
+//		//rì´ ì„ ì–¸,ì´ˆê¸°í™” í•˜ë©´ì„œ wë¥¼ nullë¡œ ì´ˆê¸°í™” ì‹œì¼œì„œ ì˜¤ë¥˜ê°€ ìƒê¹€
+//		//weapon í´ëž˜ìŠ¤ëŠ” nullì´ê¸° ë•Œë¬¸ì— powerì´ ê°’ì„ ê°€ì§ˆ ìˆ˜ ì—†ìŒ
 //		r.w = new Weapon();
 //		System.out.println(r.w.power);
-//		//r.w¸¦ ÇØ¼­ weaponÀ» ÃÊ±âÈ­ ÇÏ¸é power°¡ ÃÊ±âÈ­µÊ
+//		//r.wë¥¼ í•´ì„œ weaponì„ ì´ˆê¸°í™” í•˜ë©´ powerê°€ ì´ˆê¸°í™”ë¨
 //		r.w.power=10;
 //		//r.w=null;
-//		//r.w¸¦ null·Î ÃÊ±âÈ­ ½ÃÅ°¸é powerÀ» °¡Áú ¼ö ¾ø´Ù.¿¡·¯¹ß»ý
+//		//r.wë¥¼ nullë¡œ ì´ˆê¸°í™” ì‹œí‚¤ë©´ powerì„ ê°€ì§ˆ ìˆ˜ ì—†ë‹¤.ì—ëŸ¬ë°œìƒ
 //		//r=null;
-//		//rÀ» null·Î ÃÊ±âÈ­ ½ÃÅ°¸é powerÀ» °¡Áú ¼ö ¾ø´Ù.¿¡·¯¹ß»ý
-//		//°´Ã¼°¡ ºñ¾î¹ö¸®´Ï±î ¾È¿¡ º¯¼öµéÀÌ °ªÀ» °¡Áú ¼ö ¾ø´Ù.
+//		//rì„ nullë¡œ ì´ˆê¸°í™” ì‹œí‚¤ë©´ powerì„ ê°€ì§ˆ ìˆ˜ ì—†ë‹¤.ì—ëŸ¬ë°œìƒ
+//		//ê°ì²´ê°€ ë¹„ì–´ë²„ë¦¬ë‹ˆê¹Œ ì•ˆì— ë³€ìˆ˜ë“¤ì´ ê°’ì„ ê°€ì§ˆ ìˆ˜ ì—†ë‹¤.
 //		System.out.println(r.w.power);
 		
 		Person p = new GilGong();
@@ -32,4 +32,3 @@ public class Exec {
 		chos.checkOs(a);
 	}
 }
-

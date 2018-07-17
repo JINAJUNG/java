@@ -4,7 +4,7 @@ public class Tablet extends Computer{
 	public String resolution;
 	
 	public Tablet() {
-		System.out.println("Tablet »ı¼ºÀÚ");
+		System.out.println("Tablet ìƒì„±ì");
 	}
 	public void printInfo() {
 		super.printInfo();

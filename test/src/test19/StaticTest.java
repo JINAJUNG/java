@@ -2,10 +2,10 @@ package test19;
 
 public class StaticTest {
 	static final int a=10;
-	//string Å¬·¡½º´Â final class
-	//final class´Â »ó¼Ó ¹ŞÀ» ¼ö ¾ø´Ù.
+	//string í´ë˜ìŠ¤ëŠ” final class
+	//final classëŠ” ìƒì† ë°›ì„ ìˆ˜ ì—†ë‹¤.
 	
-	//final method´Â ÀçÁ¤ÀÇ ¿À¹ö¶óÀÌµù¾ÈµÈ´Ù.
+	//final methodëŠ” ì¬ì •ì˜ ì˜¤ë²„ë¼ì´ë”©ì•ˆëœë‹¤.
 	
 	public static void main(String[] args) {
 		

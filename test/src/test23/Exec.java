@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Exec {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("==À¯Àú ÇÁ·Î±×·¥==");
-		System.out.println("1. À¯Àú¸®½ºÆ®, 2. À¯Àú»ı¼º, 3. À¯Àú¼öÁ¤, 4.À¯Àú»èÁ¦, q. Á¾·á");
-		System.out.println("¾Ë¸ÂÀº ¸í·É¾î¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+		System.out.println("==ìœ ì € í”„ë¡œê·¸ë¨==");
+		System.out.println("1. ìœ ì €ë¦¬ìŠ¤íŠ¸, 2. ìœ ì €ìƒì„±, 3. ìœ ì €ìˆ˜ì •, 4.ìœ ì €ì‚­ì œ, q. ì¢…ë£Œ");
+		System.out.println("ì•Œë§ì€ ëª…ë ¹ì–´ë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš”.");
 		
 		String order="";
 		while(!"q".equals(order)) {
@@ -15,6 +15,6 @@ public class Exec {
 			Controller c = new Controller();
 			c.callOrder(order);
 		}
-		System.out.println("==À¯Àú ÇÁ·Î±×·¥ Á¾·á==");
+		System.out.println("==ìœ ì € í”„ë¡œê·¸ë¨ ì¢…ë£Œ==");
 	}
 }

@@ -14,14 +14,14 @@ public class Cart implements Drive{
 	
 	@Override
 	public String attack(int damage) {
-		return damage+"·Î °ø°İÇÕ´Ï´Ù.";
+		return damage+"ë¡œ ê³µê²©í•©ë‹ˆë‹¤.";
 	}
 	@Override
 	public void start() {
-		System.out.println(speed+"¼Óµµ·Î ´Ş¸³´Ï´Ù.");
+		System.out.println(speed+"ì†ë„ë¡œ ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 	@Override
 	public void stop() {
-		System.out.println("Á¤ÁöÇÕ´Ï´Ù.");
+		System.out.println("ì •ì§€í•©ë‹ˆë‹¤.");
 	}
 }

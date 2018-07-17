@@ -20,7 +20,7 @@ public class ThreeSixNine {
 				}
 			}
 		}
-		System.out.println("Â¦ °¹¼ö : "+c);
+		System.out.println("ì§ ê°¯ìˆ˜ : "+c);
 		
 //		for(int i=1;i<ranNum;i++) {
 //			String s = i+"";
@@ -34,7 +34,7 @@ public class ThreeSixNine {
 //			}
 //		}
 
-//		System.out.println("Â¦ °¹¼ö : "+ct);
+//		System.out.println("ì§ ê°¯ìˆ˜ : "+ct);
 		
 		
 	}
