@@ -18,7 +18,8 @@ public class UserDAOImple implements UserDAO {
 	
 	@Override
 	public int insertUserInfo(HashMap<String, String> userInfo) {
-	
+//		select date_format(now(), '%Y%m%d'); //날짜;
+//		select date_format(now(), '%H%i%s'); //시간;
 		String sql ="insert into user_info(uiName,uiAge,uiCredat,uiCretim,uiEtc,uiDelete)";
 		sql+="value(?,?,date_format(now(), '%Y%m%d'),date_format(now(), '%H%i%s'),?,'0')";  //? : 데이터 다이닝
 		
