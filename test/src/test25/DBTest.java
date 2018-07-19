@@ -78,15 +78,6 @@ public class DBTest {
 		}
 		return null;
 	}
-	
-	public static int userIndexOf(String str) {
-		for(int i=0;i<userList.size();i++) {
-			if(userList.get(i).get("uName").equals(str)) {
-				return i;
-			}
-		}
-		return -1;
-	}
 
 	public static void removeUser(String uName) {
 		for (int i = 0; i < userList.size();) {
@@ -95,32 +86,61 @@ public class DBTest {
 				System.out.println("해당 유저를 삭제 했습니다.");
 				userList.remove(i);
 			} else {
-				System.out.println("해당유저가 등록되어있는지 확인해 주세요.");
 				i++;
 			}
 		}
 	}
 
-	public static void removeUser(HashMap<String,String> user) {
+	public static void removeUser(HashMap<String, String> user) {
 		userList.remove(user);
 	}
+	
+	public static int userIndexOf(String str) {
+		for (int i = 0; i < userList.size(); i++) {
+			if (userList.get(i).get("uName").equals(str)) {
+				return i;
+			}
+		}
+		return -1;
+	}
+	
 	public static void removeUser(int idx) {
 		userList.remove(idx);
+	}
+
+	public static void updateUser(HashMap<String, String> user) {
+		
+		for(int i=0;i<userList.size();i++) {
+			HashMap<String, String> upU =userList.get(i);
+			if(upU.get("uName").equals(user.get("uName"))) {
+				upU.put("uName", "newName");
+				userList.set(i, upU);
+			}
+		}
 	}
 	public static void main(String[] args) {
 		inputUser();
 		inputUser();
 		inputUser();
-		inputUser();
+		
 		selectUser();
-		HashMap<String, String> user = getUser("뚱냥이");
-		System.out.println("검색된 유저 : " + user);
-		//removeUser("a");
-		//removeUser(user);
+		
+		HashMap<String, String> searchUser = getUser("뚱냥이");
+		System.out.println("검색된 유저 : " +searchUser);
+		
+		updateUser(searchUser); //업데이트
+		
+		if(searchUser!=null) {
+			removeUser(searchUser);
+		}
+		
 		int idx = userIndexOf("a");
 		if(idx!=-1) {
 			removeUser(idx);	
 		}
+		
+		removeUser("b"); //중복데이터 삭제
+		
 		selectUser();
 	}
 
