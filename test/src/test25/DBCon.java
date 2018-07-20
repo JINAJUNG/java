@@ -15,6 +15,7 @@ public class DBCon {
 		try {
 			Class.forName("org.mariadb.jdbc.Driver");
 			con=DriverManager.getConnection(url, userName, userPwd);
+			con.setAutoCommit(false); //자동저장 막아놓음 false, 트렌젝션을 걸어놓은것이라고 한다는데~~goto UserDAOImple->insertUserInfo 메소드에서 제대로된 값이 들어가면 try 안에서 커밋 아니라면 catch에서 rollback시킨다.
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
