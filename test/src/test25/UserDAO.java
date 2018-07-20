@@ -5,9 +5,8 @@ import java.util.HashMap;
 
 public interface UserDAO {
 
-	public int insertUserInfo(HashMap<String, String> userInfo);
-	public int deleteUserInfo(HashMap<String, String> userInfo);
-	public int updateUserInfo(HashMap<String, String> userInfo);
-	public ArrayList<HashMap<String,String>> selectUserInfoList(HashMap<String, String> userInfo);
-	
+	public ArrayList<HashMap<String, String>> selectUserList(HashMap<String, String> user);
+	public int insertUserList(HashMap<String, String> user);
+	public int updateUserList(HashMap<String, String> user);
+	public int deleteUserList(HashMap<String, String> user);
 }
