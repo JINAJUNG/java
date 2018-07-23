@@ -1,18 +1,24 @@
 package test01;
 
-import java.util.Scanner;
-
 public class ArrayTest {
 	
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		System.out.println("숫자를 입력해줘 ,로 구분");
-		String aa = scan.nextLine();
-		
-		String[] pointStr = aa.split(",");
-		
-		for(int i=0; i<pointStr.length; i++) {
-		System.out.println(pointStr[i]);
+	int a = 3;
+
+	void test() {
+		System.out.println(a);
 	}
-}
+
+	public static void main(String[] args) {
+		int a = 3;
+		
+		int[] arr = new int[5];
+		arr[0] = 1;
+		arr[1] = 2;
+		arr[2] = 3;
+		arr[3] = 4;
+		arr[4] = 5;
+		System.out.println(arr[0]);
+		arr = new int[3];
+		System.out.println(arr[0]);
+	}
 }

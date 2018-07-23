@@ -8,10 +8,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-<<<<<<< HEAD
-=======
 import java.util.Set;
->>>>>>> branch 'master' of https://github.com/JINAJUNG/java.git
+
 
 import test25.DBCon;
 import test25.UserDAO;
@@ -86,11 +84,7 @@ public class UserDAOImpl implements UserDAO {
 
 		while (it.hasNext()) {
 			con = DBCon.getCon();
-<<<<<<< HEAD
 			String sql = "update user_info set ";
-=======
-			String sql = "update user set ";
->>>>>>> branch 'master' of https://github.com/JINAJUNG/java.git
 			String setColumn = it.next();
 			if (setColumn.equals("uiNum")) {
 				DBCon.close();
