@@ -7,6 +7,7 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 
 import test25.DBCon;
 import test25.UserDAO;
@@ -75,36 +76,36 @@ public class UserDAOImpl implements UserDAO {
 	@Override
 	public int updateUserList(HashMap<String, String> user) {
 		// 헤시맵에 있는 아이들만 업데이트 시키도록 해보기!set값을 받아옴
-		con = DBCon.getCon();
+		
 		int result = 0;
-		String sql = "update user_info set ";
-		int count =user.size();
-		if (user != null) {
-			if (user.get("uiName") != null) {
-				sql += "uiName = ?";
+		Iterator<String> it = user.keySet().iterator();
+
+		while (it.hasNext()) {
+			con = DBCon.getCon();
+			String sql = "update user_info set ";
+			String setColumn = it.next();
+			if (setColumn.equals("uiNum")) {
+				DBCon.close();
+				continue;
 			}
-			if (user.get("uiAge") != null) {
-				sql += "uiAge = ?";
-			}
-			if (user.get("uiEtc") != null) {
-				sql += "uiEtc = ?";
-			}
-		}
-		sql+="where uiNum = ?";
-		try {
-			PreparedStatement ps = con.prepareStatement(sql);
-			if (user != null) {
-				if (user.get("uiName") != null) {
-					ps.setString(1, user.get("uiName"));
+			sql += setColumn + "=?  where uiNum = ?";
+			try {
+				PreparedStatement ps = con.prepareStatement(sql);
+				if (user != null) {
+					ps.setString(1, user.get(setColumn));
+					ps.setString(2, user.get("uiNum"));
 				}
+				result += ps.executeUpdate();
+				ps.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+				System.out.println("dhdld");
+			} finally {
+				DBCon.close();
 			}
-			result = ps.executeUpdate();
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} finally {
-			DBCon.close();
+			System.out.println(result);
 		}
-		System.out.println(result);
+
 		return result;
 	}
 

@@ -40,24 +40,27 @@ public class Exec {
 			}
 		}
 		
-		user.put("uiNum", "2");
-		user.put("uiName","c");
+		user.put("uiNum", "7");
+		user.put("uiName","토끼1");
+		user.put("uiEtc","장미꽃");
+		userList = udao.selectUserList(user);
+
+		int updateC = udao.updateUserList(user);
+		if(updateC!=0) {
+			System.out.println("등록 성공");
+		}else {
+			System.out.println("등록 실패");
+		}
+		user=null;
 		userList = udao.selectUserList(user);
 		for(HashMap<String,String> hm : userList) {
 			System.out.println(hm);
 		}
-//		int updateC = udao.updateUserList(user);
-//		if(updateC==1) {
-//			System.out.println("등록 성공");
+//		if(udao.deleteUserList(user)==1) {
+//			System.out.println("삭제 성공");
 //		}else {
-//			System.out.println("등록 실패");
+//			System.out.println("삭제 실패");
 //		}
-		
-		if(udao.deleteUserList(user)==1) {
-			System.out.println("삭제 성공");
-		}else {
-			System.out.println("삭제 실패");
-		}
 		
 	}
 }
