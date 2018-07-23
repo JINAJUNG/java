@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DBCon {
 
-	private static final String url="jdbc:mariadb://127.0.0.1:3306/oreo";
+	private static final String url="jdbc:mariadb://127.0.0.1:3306/jin_Test";
 	private static final String id="root";
 	private static final String pwd="12345678";
 	private static final String driver="org.mariadb.jdbc.Driver";

@@ -8,6 +8,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+<<<<<<< HEAD
+=======
+import java.util.Set;
+>>>>>>> branch 'master' of https://github.com/JINAJUNG/java.git
 
 import test25.DBCon;
 import test25.UserDAO;
@@ -20,7 +24,7 @@ public class UserDAOImpl implements UserDAO {
 	public ArrayList<HashMap<String, String>> selectUserList(HashMap<String, String> user) {
 		con = DBCon.getCon();
 		ArrayList<HashMap<String, String>> userList = new ArrayList<HashMap<String, String>>();
-		String sql = "select * from user_info";
+		String sql = "select * from user";
 		if (user != null) {
 			sql += " where ";
 			if (user.get("uiNum") != null) {
@@ -56,7 +60,7 @@ public class UserDAOImpl implements UserDAO {
 	@Override
 	public int insertUserList(HashMap<String, String> user) {
 		con = DBCon.getCon();
-		String sql = "insert into user_info(uiName, uiAge, uiCredat, uiCretim, uiEtc,uiDelete) ";
+		String sql = "insert into user(uiName, uiAge, uiCredat, uiCretim, uiEtc,uiDelete) ";
 		sql += "values (?,?,date_format(now(), '%Y%m%d'),date_format(now(), '%I%i%s'),?,'0')";
 		int result = 0;
 		try {
@@ -82,7 +86,11 @@ public class UserDAOImpl implements UserDAO {
 
 		while (it.hasNext()) {
 			con = DBCon.getCon();
+<<<<<<< HEAD
 			String sql = "update user_info set ";
+=======
+			String sql = "update user set ";
+>>>>>>> branch 'master' of https://github.com/JINAJUNG/java.git
 			String setColumn = it.next();
 			if (setColumn.equals("uiNum")) {
 				DBCon.close();
@@ -113,7 +121,7 @@ public class UserDAOImpl implements UserDAO {
 	public int deleteUserList(HashMap<String, String> user) {
 		con = DBCon.getCon();
 		int result = 0;
-		String sql = "delete from user_info ";
+		String sql = "delete from user ";
 		if (user != null) {
 			sql += " where ";
 			if (user.get("uiNum") != null) {
