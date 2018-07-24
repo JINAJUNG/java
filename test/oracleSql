@@ -1,0 +1,39 @@
+create table member(
+memNum int not null,
+memName varchar2(200) not null,
+memId varchar2(100) not null,
+memPwd varchar2(100) not null,
+memAge int not null,
+memEtc varchar2(2000), /*mysql은 글자 수 기준 oracle은 byte기준 so, 한글2000글자가 들어가지않음*/
+credat char(8) not null, --주석~
+cretim char(6) not null,
+moddat char(8) not null,
+modtim char(8) not null  /*8byte가 들어감*/
+);
+
+select * from member;
+
+create SEQUENCE mem_seq --mysql은 auto_increment가 있지만 oracle은 내가 sequence를 만들어야한다.
+start WITH 1
+INCREMENT by 1;  --시작은 1부터 1씩 증가한다.
+select mem_seq.nextval from dual;
+select to_char(sysdate, 'YYYYmmdd') from dual;
+insert into member values(mem_seq.nextval,'jina','jinas','jinas',23,'감기데스',to_char(sysdate,'YYYYmmdd'),to_char(sysdate,'HH24miss'),to_char(sysdate,'YYYYmmdd'),to_char(sysdate,'HH24miss'));
+
+commit; --저장해줘야햄
+
+
+create table myinfo(
+name varchar2(200) not null,
+school varchar2(200) not null,
+area varchar2(200) not null,
+phone int not null,
+postal_code char(5)
+);
+
+ALTER table myinfo modify phone char(11);
+
+insert into myinfo values('진아','영진','대구','01025822582','12345');
+select * from myinfo;
+
+delete from myinfo;
