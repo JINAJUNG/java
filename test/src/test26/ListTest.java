@@ -22,15 +22,15 @@ public class ListTest {
 		String[] tmpArr = this.strArr;
 		int idx = index(str);
 		this.strArr = new String[this.strArr.length - 1];
-
-		for (int i = 0; i < strArr.length; i++) {
-			for (int j = i; j < tmpArr.length; j++) {
-				if(j==idx) {
-					continue;
-				}
-				strArr[i]=tmpArr[j];
-				break;
+		int c=0;
+		for(int i=0;i<strArr.length;i++) {
+			if(i==idx) {c=1;}
+			if(c==1) {
+				strArr[i]=tmpArr[i+1];
+			}else {
+				strArr[i]=tmpArr[i];
 			}
+			
 		}
 
 		// for(int i=0;i<idx;i++) {
@@ -87,7 +87,7 @@ public class ListTest {
 		// System.out.println(li.get(1));
 		// System.out.println(li.index("6"));
 		// System.out.println(li.size());
-		li.remove("1");
+		li.remove("3");
 		System.out.println(li);
 	}
 }
